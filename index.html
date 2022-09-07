@@ -1,0 +1,63 @@
+<!doctype html>
+<html lang="en">
+  <head>
+    <!-- Required meta tags -->
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+
+    <!-- Bootstrap CSS -->
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-EVSTQN3/azprG1Anm3QDgpJLIm9Nao0Yz1ztcQTwFspd3yD65VohhpuuCOmLASjC" crossorigin="anonymous">
+
+    <title>Survey Form</title>
+    <!-- Css link -->
+    <link rel="stylesheet" href="style.css">
+  </head>
+  <body>
+    <div class="container-fluid">
+        <div class="title">
+            <h1>Survey Form</h1>
+            <p>About Language U Like To Study</p>
+        </div>
+    </div>
+    <div class="container col-lg-8 col-sm-12">
+      <form action="form">
+      <div class="form d-flex flex-column form-control">
+        <label for="Name">Name</label>
+        <input type="text" name="Name" id="Name" placeholder="Enter the Name" minlength="3" required>
+        <label for="Email">Email</label>
+        <input type="email" name="Email" id="Email" placeholder="Enter the Email" required>
+        <label for="Age">Date_OF_Birth</label>
+        <input type="date" name="date" id="date" required>
+        <label for="Option">What is U r Description:</label>
+        <select name="role" id="role">
+            <option value="student">Student</option>
+            <option value="Empleey">Empleey</option>
+            <option value="teacher">Teacher</option>
+        </select>
+        <label for="Language">Recommend Language:</label>
+        <label for="inp-1"><input type="checkbox" name="inp" id="">c</label>
+        <label for="inp-2"><input type="checkbox" name="inp" id="">c++</label>
+        <label for="inp-3"><input type="checkbox" name="inp" id="">java</label>
+        <label for="inp-4"><input type="checkbox" name="inp" id="">python</label>
+        <label for="inp-5"><input type="checkbox" name="inp" id="">javaScript</label>
+        <label for="inp-6"><input type="checkbox" name="inp" id="">TypeScript</label>
+        <label for="inp-7"><input type="checkbox" name="inp" id="">c#</label>
+        <label for="comment">Any comments or suggestions</label>
+        <textarea name="comment" id="comment"
+          placeholder="Enter your comment here" minlength="6" required>
+        </textarea>
+        <div class="button">
+        <button type="submit" id="sub" value="submit" style="margin-right:55px;">Submit</button>
+        <button type="reset" id="Re" value="reset">reset</button>
+        </div>
+      </div>
+    </form>
+    </div>
+   
+
+   
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/js/bootstrap.bundle.min.js" integrity="sha384-MrcW6ZMFYlzcLA8Nl+NtUVF0sA7MsXsP1UyJoMp4YLEuNSfAP+JcXn/tWtIaxVXM" crossorigin="anonymous"></script>
+
+    
+  </body>
+</html>

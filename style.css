@@ -1,0 +1,46 @@
+body{
+    margin: 0px;
+    padding: 0px;
+    background-color:#F9C6C1;
+    
+}
+label{
+    margin-top:15px;
+}
+.container-fluid{
+    text-align: center;
+}
+.container{
+    background-color: #9FBDE1;
+    box-shadow: rgba(0, 0, 0, 0.16) 0px 1px 4px, rgb(51, 51, 51) 0px 0px 0px 3px;
+}
+.form{
+    background-color: #9FBDE1;
+    margin: auto;
+}
+button{
+    margin-top: 20px;
+}
+.button{
+    margin: auto;
+}
+input{
+    background-color: #9FBDE1;
+    outline: none;
+    border: none;
+    border-bottom: 1px solid;
+}
+select{
+    background-color: #9FBDE1;
+}
+textarea{
+    background-color: #9FBDE1;
+}
+#sub{
+    background-color: rgb(51, 51, 184);
+    color: white;
+}
+#Re{
+    background-color: rgb(159, 36, 36);
+    color: white;
+}
